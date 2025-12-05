@@ -1,2 +1,12 @@
-# hello-yii2
-say hello for yii Framework 2.0
+## 1. 安装
+通过 composer 安装：
+```
+composer require lulubin/hello-yii2
+```
+## 2. 使用
+```
+<?php
+use lulubin\hello\Hello;
+
+echo Hello::sayHello();
+```
